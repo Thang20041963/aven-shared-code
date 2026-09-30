@@ -3,11 +3,14 @@ name: build
 on:
   push:
     branches: [main]
-  workflow_dispatch: # cho phép bấm chạy tay
+  workflow_dispatch:
 
 permissions:
-  id-token: write # BẮT BUỘC cho OIDC
+  id-token: write
   contents: read
+
+env:
+  PROJECT: SharedCode/SharedCode.csproj # <-- đổi cho đúng
 
 jobs:
   publish:
@@ -17,11 +20,11 @@ jobs:
 
       - uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: 9.0.x # đổi theo project của bạn
+          dotnet-version: 9.0.x
 
-      - run: dotnet restore
-      - run: dotnet build -c Release --no-restore
-      - run: dotnet pack -c Release --no-build -o ./nupkgs
+      - run: dotnet restore ${{ env.PROJECT }}
+      - run: dotnet build ${{ env.PROJECT }} -c Release --no-restore
+      - run: dotnet pack ${{ env.PROJECT }} -c Release --no-build -o ./nupkgs
 
       - name: NuGet login (OIDC)
         uses: NuGet/login@v1
