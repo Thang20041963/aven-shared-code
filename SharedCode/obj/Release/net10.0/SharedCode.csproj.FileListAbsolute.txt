@@ -1,0 +1,13 @@
+D:\project\Backend\AvenNovel_BackEnd\src\SharedBlocks\SharedCode\bin\Release\net10.0\SharedCode.deps.json
+D:\project\Backend\AvenNovel_BackEnd\src\SharedBlocks\SharedCode\bin\Release\net10.0\SharedCode.dll
+D:\project\Backend\AvenNovel_BackEnd\src\SharedBlocks\SharedCode\bin\Release\net10.0\SharedCode.pdb
+D:\project\Backend\AvenNovel_BackEnd\src\SharedBlocks\SharedCode\obj\Release\net10.0\SharedCode.csproj.AssemblyReference.cache
+D:\project\Backend\AvenNovel_BackEnd\src\SharedBlocks\SharedCode\obj\Release\net10.0\SharedCode.GeneratedMSBuildEditorConfig.editorconfig
+D:\project\Backend\AvenNovel_BackEnd\src\SharedBlocks\SharedCode\obj\Release\net10.0\SharedCode.AssemblyInfoInputs.cache
+D:\project\Backend\AvenNovel_BackEnd\src\SharedBlocks\SharedCode\obj\Release\net10.0\SharedCode.AssemblyInfo.cs
+D:\project\Backend\AvenNovel_BackEnd\src\SharedBlocks\SharedCode\obj\Release\net10.0\SharedCode.csproj.CoreCompileInputs.cache
+D:\project\Backend\AvenNovel_BackEnd\src\SharedBlocks\SharedCode\obj\Release\net10.0\SharedCode.sourcelink.json
+D:\project\Backend\AvenNovel_BackEnd\src\SharedBlocks\SharedCode\obj\Release\net10.0\SharedCode.dll
+D:\project\Backend\AvenNovel_BackEnd\src\SharedBlocks\SharedCode\obj\Release\net10.0\refint\SharedCode.dll
+D:\project\Backend\AvenNovel_BackEnd\src\SharedBlocks\SharedCode\obj\Release\net10.0\SharedCode.pdb
+D:\project\Backend\AvenNovel_BackEnd\src\SharedBlocks\SharedCode\obj\Release\net10.0\ref\SharedCode.dll
