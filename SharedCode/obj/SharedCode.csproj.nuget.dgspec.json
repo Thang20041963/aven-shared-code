@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\project\\Backend\\AvenNovel_BackEnd\\src\\SharedBlocks\\SharedCode\\SharedCode.csproj": {}
+    "D:\\project\\Backend\\aven-shared-code\\SharedCode\\SharedCode.csproj": {}
   },
   "projects": {
-    "D:\\project\\Backend\\AvenNovel_BackEnd\\src\\SharedBlocks\\SharedCode\\SharedCode.csproj": {
-      "version": "1.0.0",
+    "D:\\project\\Backend\\aven-shared-code\\SharedCode\\SharedCode.csproj": {
+      "version": "1.0.1",
       "restore": {
-        "projectUniqueName": "D:\\project\\Backend\\AvenNovel_BackEnd\\src\\SharedBlocks\\SharedCode\\SharedCode.csproj",
+        "projectUniqueName": "D:\\project\\Backend\\aven-shared-code\\SharedCode\\SharedCode.csproj",
         "projectName": "AvenNovel.SharedCode",
-        "projectPath": "D:\\project\\Backend\\AvenNovel_BackEnd\\src\\SharedBlocks\\SharedCode\\SharedCode.csproj",
+        "projectPath": "D:\\project\\Backend\\aven-shared-code\\SharedCode\\SharedCode.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\project\\Backend\\AvenNovel_BackEnd\\src\\SharedBlocks\\SharedCode\\obj\\",
+        "outputPath": "D:\\project\\Backend\\aven-shared-code\\SharedCode\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "01sjRmIwCM4=",
+  "dgSpecHash": "GGhPy+w8EWg=",
   "success": true,
-  "projectFilePath": "D:\\project\\Backend\\AvenNovel_BackEnd\\src\\SharedBlocks\\SharedCode\\SharedCode.csproj",
+  "projectFilePath": "D:\\project\\Backend\\aven-shared-code\\SharedCode\\SharedCode.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\mediatr\\14.2.0\\mediatr.14.2.0.nupkg.sha512",

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\project\\Backend\\aven-shared-code\\SharedCode\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{70481979-6D0A-5EB3-F7D0-CF19121B94AB}|SharedCode.csproj|d:\\project\\backend\\aven-shared-code\\sharedcode\\sharedcode.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{70481979-6D0A-5EB3-F7D0-CF19121B94AB}|SharedCode.csproj|solutionrelative:sharedcode.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SharedCode",
+              "DocumentMoniker": "D:\\project\\Backend\\aven-shared-code\\SharedCode\\SharedCode.csproj",
+              "RelativeDocumentMoniker": "SharedCode.csproj",
+              "ToolTip": "D:\\project\\Backend\\aven-shared-code\\SharedCode\\SharedCode.csproj",
+              "RelativeToolTip": "SharedCode.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-30T14:42:21.097Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
