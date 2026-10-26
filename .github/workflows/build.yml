@@ -1,8 +1,10 @@
+```yaml
 name: build
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
@@ -10,31 +12,63 @@ permissions:
   contents: read
 
 env:
-  PROJECT: SharedCode/SharedCode.csproj # <-- đổi cho đúng
+  PROJECT: SharedCode/SharedCode.csproj
 
 jobs:
   publish:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
+      # 1. Checkout source code
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-dotnet@v4
+      # 2. Setup .NET SDK
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: 9.0.x
+          dotnet-version: 10.0.x
 
-      - run: dotnet restore ${{ env.PROJECT }}
-      - run: dotnet build ${{ env.PROJECT }} -c Release --no-restore
-      - run: dotnet pack ${{ env.PROJECT }} -c Release --no-build -o ./nupkgs
+      # 3. Restore dependencies
+      - name: Restore dependencies
+        run: dotnet restore "${{ env.PROJECT }}"
 
+      # 4. Generate a unique package version for this workflow
+      - name: Set package version
+        id: version
+        shell: bash
+        run: |
+          VERSION="1.0.${GITHUB_RUN_NUMBER}"
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          echo "Publishing AvenNovel.SharedCode version: $VERSION"
+
+      # 5. Build project
+      - name: Build
+        run: |
+          dotnet build "${{ env.PROJECT }}" \
+            --configuration Release \
+            --no-restore \
+            -p:Version=${{ steps.version.outputs.version }}
+
+      # 6. Pack NuGet package
+      - name: Pack NuGet
+        run: |
+          dotnet pack "${{ env.PROJECT }}" \
+            --configuration Release \
+            --no-build \
+            -p:PackageVersion=${{ steps.version.outputs.version }} \
+            -o ./nupkgs
+
+      # 7. Login to NuGet.org using trusted publishing (OIDC)
       - name: NuGet login (OIDC)
         uses: NuGet/login@v1
         id: login
         with:
           user: ${{ secrets.NUGET_USER }}
 
+      # 8. Publish package
       - name: Push to nuget.org
-        run: >
-          dotnet nuget push ./nupkgs/*.nupkg
-          --api-key ${{ steps.login.outputs.NUGET_API_KEY }}
-          --source https://api.nuget.org/v3/index.json
-          --skip-duplicate
+        run: |
+          dotnet nuget push ./nupkgs/*.nupkg \
+            --api-key "${{ steps.login.outputs.NUGET_API_KEY }}" \
+            --source https://api.nuget.org/v3/index.json
