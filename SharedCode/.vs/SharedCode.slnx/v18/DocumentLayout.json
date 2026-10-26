@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "D:\\project\\Backend\\aven-shared-code\\SharedCode\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{70481979-6D0A-5EB3-F7D0-CF19121B94AB}|SharedCode.csproj|d:\\project\\backend\\aven-shared-code\\sharedcode\\api\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70481979-6D0A-5EB3-F7D0-CF19121B94AB}|SharedCode.csproj|solutionrelative:api\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70481979-6D0A-5EB3-F7D0-CF19121B94AB}|SharedCode.csproj|d:\\project\\backend\\aven-shared-code\\sharedcode\\domain\\interfaces\\idisableable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70481979-6D0A-5EB3-F7D0-CF19121B94AB}|SharedCode.csproj|solutionrelative:domain\\interfaces\\idisableable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70481979-6D0A-5EB3-F7D0-CF19121B94AB}|SharedCode.csproj|d:\\project\\backend\\aven-shared-code\\sharedcode\\domain\\interfaces\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70481979-6D0A-5EB3-F7D0-CF19121B94AB}|SharedCode.csproj|solutionrelative:domain\\interfaces\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70481979-6D0A-5EB3-F7D0-CF19121B94AB}|SharedCode.csproj|d:\\project\\backend\\aven-shared-code\\sharedcode\\api\\extensions\\resultextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70481979-6D0A-5EB3-F7D0-CF19121B94AB}|SharedCode.csproj|solutionrelative:api\\extensions\\resultextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{70481979-6D0A-5EB3-F7D0-CF19121B94AB}|SharedCode.csproj|d:\\project\\backend\\aven-shared-code\\sharedcode\\sharedcode.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{70481979-6D0A-5EB3-F7D0-CF19121B94AB}|SharedCode.csproj|solutionrelative:sharedcode.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
@@ -14,20 +30,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IDisableable.cs",
+              "DocumentMoniker": "D:\\project\\Backend\\aven-shared-code\\SharedCode\\Domain\\Interfaces\\IDisableable.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IDisableable.cs",
+              "ToolTip": "D:\\project\\Backend\\aven-shared-code\\SharedCode\\Domain\\Interfaces\\IDisableable.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IDisableable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T13:03:38.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IBaseRepository.cs",
+              "DocumentMoniker": "D:\\project\\Backend\\aven-shared-code\\SharedCode\\Domain\\Interfaces\\IBaseRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IBaseRepository.cs",
+              "ToolTip": "D:\\project\\Backend\\aven-shared-code\\SharedCode\\Domain\\Interfaces\\IBaseRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IBaseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T13:03:30.322Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SharedCode",
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "D:\\project\\Backend\\aven-shared-code\\SharedCode\\Api\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "Api\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "D:\\project\\Backend\\aven-shared-code\\SharedCode\\Api\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "Api\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T13:03:25.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ResultExtensions.cs",
+              "DocumentMoniker": "D:\\project\\Backend\\aven-shared-code\\SharedCode\\Api\\Extensions\\ResultExtensions.cs",
+              "RelativeDocumentMoniker": "Api\\Extensions\\ResultExtensions.cs",
+              "ToolTip": "D:\\project\\Backend\\aven-shared-code\\SharedCode\\Api\\Extensions\\ResultExtensions.cs",
+              "RelativeToolTip": "Api\\Extensions\\ResultExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T13:03:21.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SharedCode.csproj",
               "DocumentMoniker": "D:\\project\\Backend\\aven-shared-code\\SharedCode\\SharedCode.csproj",
               "RelativeDocumentMoniker": "SharedCode.csproj",
               "ToolTip": "D:\\project\\Backend\\aven-shared-code\\SharedCode\\SharedCode.csproj",
               "RelativeToolTip": "SharedCode.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-09-30T14:42:21.097Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-30T14:42:21.097Z"
             }
           ]
         }
