@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using SharedCode.Contracts.Results;
 
-namespace SharedBlocks.Api.Middleware
+namespace SharedCode.Api.Middleware
 {
     public class ExceptionHandlingMiddleware
     {
