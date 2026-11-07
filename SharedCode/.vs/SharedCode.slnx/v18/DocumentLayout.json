@@ -42,8 +42,7 @@
               "RelativeToolTip": "Domain\\Interfaces\\IDisableable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-05T13:03:38.021Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-05T13:03:38.021Z"
             },
             {
               "$type": "Document",
@@ -65,7 +64,7 @@
               "RelativeDocumentMoniker": "Api\\Middleware\\ExceptionHandlingMiddleware.cs",
               "ToolTip": "D:\\project\\Backend\\aven-shared-code\\SharedCode\\Api\\Middleware\\ExceptionHandlingMiddleware.cs",
               "RelativeToolTip": "Api\\Middleware\\ExceptionHandlingMiddleware.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-05T13:03:25.563Z",
               "EditorCaption": ""
