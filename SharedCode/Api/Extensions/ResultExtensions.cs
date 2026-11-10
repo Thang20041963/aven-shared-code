@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using SharedCode.Contracts.Results;
 namespace SharedCode.Api.Extensions
 {
@@ -20,13 +21,13 @@ namespace SharedCode.Api.Extensions
                     controller.Conflict(result),
 
                 ErrorType.Unauthorized =>
-                    controller.Unauthorized(),
+                    controller.StatusCode(StatusCodes.Status401Unauthorized, result),
 
                 ErrorType.Forbidden =>
-                    controller.Forbid(),
+                    controller.StatusCode(StatusCodes.Status403Forbidden, result),
 
                 _ =>
-                    controller.StatusCode(500, result)
+                    controller.StatusCode(StatusCodes.Status500InternalServerError, result)
             };
         }
 
@@ -51,13 +52,13 @@ namespace SharedCode.Api.Extensions
                     controller.Conflict(result),
 
                 ErrorType.Unauthorized =>
-                    controller.Unauthorized(),
+                    controller.StatusCode(StatusCodes.Status401Unauthorized, result),
 
                 ErrorType.Forbidden =>
-                    controller.Forbid(),
+                    controller.StatusCode(StatusCodes.Status403Forbidden, result),
 
                 _ =>
-                    controller.StatusCode(500, result)
+                    controller.StatusCode(StatusCodes.Status500InternalServerError, result)
             };
         }
     }
