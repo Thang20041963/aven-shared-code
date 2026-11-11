@@ -9,6 +9,10 @@ namespace SharedCode.Api.Extensions
             this ControllerBase controller,
             Result result)
         {
+            if (result.IsSuccess)
+            {
+                return controller.Ok(result);
+            }
             return result.ErrorType switch
             {
                 ErrorType.Validation =>
