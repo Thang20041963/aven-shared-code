@@ -58,8 +58,7 @@
               "RelativeToolTip": "Contracts\\Pagination\\PaginatedResult.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T14:00:02.138Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-10T14:00:02.138Z"
             },
             {
               "$type": "Document",
@@ -71,8 +70,7 @@
               "RelativeToolTip": "Contracts\\Pagination\\PaginationRequest.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T13:59:59.646Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-10T13:59:59.646Z"
             },
             {
               "$type": "Document",
@@ -84,8 +82,7 @@
               "RelativeToolTip": "Application\\Behaviors\\ValidationBehavior.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-08T02:18:43.435Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-08T02:18:43.435Z"
             },
             {
               "$type": "Document",
@@ -97,8 +94,7 @@
               "RelativeToolTip": "Contracts\\Results\\Result.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-08T02:16:08.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-08T02:16:08.883Z"
             },
             {
               "$type": "Document",
@@ -110,8 +106,7 @@
               "RelativeToolTip": "Application\\Behaviors\\LoggingBehavior.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAQwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-07T03:40:40.154Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-07T03:40:40.154Z"
             },
             {
               "$type": "Document",
@@ -121,7 +116,7 @@
               "RelativeDocumentMoniker": "Api\\Extensions\\ResultExtensions.cs",
               "ToolTip": "D:\\project\\Backend\\aven-shared-code\\SharedCode\\Api\\Extensions\\ResultExtensions.cs",
               "RelativeToolTip": "Api\\Extensions\\ResultExtensions.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwCsAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-05T13:03:21.443Z",
               "EditorCaption": ""
@@ -148,8 +143,7 @@
               "RelativeToolTip": "Api\\Middleware\\ExceptionHandlingMiddleware.cs",
               "ViewState": "AgIAAGkAAAAAAAAAAAAqwJQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-05T13:03:25.563Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-05T13:03:25.563Z"
             },
             {
               "$type": "Document",
