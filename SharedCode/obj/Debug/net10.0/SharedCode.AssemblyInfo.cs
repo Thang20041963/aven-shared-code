@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Shared code blocks for Aven novel")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.1.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1+bf451f2624e14c175bff21ce6df2b91e33db03db")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1+6c7da134dc746871ddb00f88157895e7b7114f6d")]
 [assembly: System.Reflection.AssemblyProductAttribute("SharedCode")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SharedCode")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.1.0")]
