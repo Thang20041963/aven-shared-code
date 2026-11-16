@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\project\\Backend\\aven-shared-code\\SharedCode\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{70481979-6D0A-5EB3-F7D0-CF19121B94AB}|SharedCode.csproj|d:\\project\\backend\\aven-shared-code\\sharedcode\\api\\extensions\\jwtauthextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70481979-6D0A-5EB3-F7D0-CF19121B94AB}|SharedCode.csproj|solutionrelative:api\\extensions\\jwtauthextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70481979-6D0A-5EB3-F7D0-CF19121B94AB}|SharedCode.csproj|d:\\project\\backend\\aven-shared-code\\sharedcode\\contracts\\results\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70481979-6D0A-5EB3-F7D0-CF19121B94AB}|SharedCode.csproj|solutionrelative:contracts\\results\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{70481979-6D0A-5EB3-F7D0-CF19121B94AB}|SharedCode.csproj|d:\\project\\backend\\aven-shared-code\\sharedcode\\api\\extensions\\resultextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70481979-6D0A-5EB3-F7D0-CF19121B94AB}|SharedCode.csproj|solutionrelative:api\\extensions\\resultextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{70481979-6D0A-5EB3-F7D0-CF19121B94AB}|SharedCode.csproj|d:\\project\\backend\\aven-shared-code\\sharedcode\\api\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70481979-6D0A-5EB3-F7D0-CF19121B94AB}|SharedCode.csproj|solutionrelative:api\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70481979-6D0A-5EB3-F7D0-CF19121B94AB}|SharedCode.csproj|d:\\project\\backend\\aven-shared-code\\sharedcode\\contracts\\results\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70481979-6D0A-5EB3-F7D0-CF19121B94AB}|SharedCode.csproj|solutionrelative:contracts\\results\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{70481979-6D0A-5EB3-F7D0-CF19121B94AB}|SharedCode.csproj|d:\\project\\backend\\aven-shared-code\\sharedcode\\contracts\\pagination\\paginationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,23 +50,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PaginatedResult.cs",
-              "DocumentMoniker": "D:\\project\\Backend\\aven-shared-code\\SharedCode\\Contracts\\Pagination\\PaginatedResult.cs",
-              "RelativeDocumentMoniker": "Contracts\\Pagination\\PaginatedResult.cs",
-              "ToolTip": "D:\\project\\Backend\\aven-shared-code\\SharedCode\\Contracts\\Pagination\\PaginatedResult.cs",
-              "RelativeToolTip": "Contracts\\Pagination\\PaginatedResult.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "JwtAuthExtension.cs",
+              "DocumentMoniker": "D:\\project\\Backend\\aven-shared-code\\SharedCode\\Api\\Extensions\\JwtAuthExtension.cs",
+              "RelativeDocumentMoniker": "Api\\Extensions\\JwtAuthExtension.cs",
+              "ToolTip": "D:\\project\\Backend\\aven-shared-code\\SharedCode\\Api\\Extensions\\JwtAuthExtension.cs",
+              "RelativeToolTip": "Api\\Extensions\\JwtAuthExtension.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADoAAAB9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T14:00:02.138Z"
+              "WhenOpened": "2026-11-12T13:47:13.696Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "PaginationRequest.cs",
               "DocumentMoniker": "D:\\project\\Backend\\aven-shared-code\\SharedCode\\Contracts\\Pagination\\PaginationRequest.cs",
               "RelativeDocumentMoniker": "Contracts\\Pagination\\PaginationRequest.cs",
@@ -74,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ValidationBehavior.cs",
               "DocumentMoniker": "D:\\project\\Backend\\aven-shared-code\\SharedCode\\Application\\Behaviors\\ValidationBehavior.cs",
               "RelativeDocumentMoniker": "Application\\Behaviors\\ValidationBehavior.cs",
@@ -86,19 +91,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Result.cs",
               "DocumentMoniker": "D:\\project\\Backend\\aven-shared-code\\SharedCode\\Contracts\\Results\\Result.cs",
               "RelativeDocumentMoniker": "Contracts\\Results\\Result.cs",
               "ToolTip": "D:\\project\\Backend\\aven-shared-code\\SharedCode\\Contracts\\Results\\Result.cs",
               "RelativeToolTip": "Contracts\\Results\\Result.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAIwDYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-08T02:16:08.883Z"
+              "WhenOpened": "2026-11-08T02:16:08.883Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "LoggingBehavior.cs",
               "DocumentMoniker": "D:\\project\\Backend\\aven-shared-code\\SharedCode\\Application\\Behaviors\\LoggingBehavior.cs",
               "RelativeDocumentMoniker": "Application\\Behaviors\\LoggingBehavior.cs",
@@ -110,20 +116,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ResultExtensions.cs",
               "DocumentMoniker": "D:\\project\\Backend\\aven-shared-code\\SharedCode\\Api\\Extensions\\ResultExtensions.cs",
               "RelativeDocumentMoniker": "Api\\Extensions\\ResultExtensions.cs",
               "ToolTip": "D:\\project\\Backend\\aven-shared-code\\SharedCode\\Api\\Extensions\\ResultExtensions.cs",
               "RelativeToolTip": "Api\\Extensions\\ResultExtensions.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-05T13:03:21.443Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
+              "Title": "PaginatedResult.cs",
+              "DocumentMoniker": "D:\\project\\Backend\\aven-shared-code\\SharedCode\\Contracts\\Pagination\\PaginatedResult.cs",
+              "RelativeDocumentMoniker": "Contracts\\Pagination\\PaginatedResult.cs",
+              "ToolTip": "D:\\project\\Backend\\aven-shared-code\\SharedCode\\Contracts\\Pagination\\PaginatedResult.cs",
+              "RelativeToolTip": "Contracts\\Pagination\\PaginatedResult.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T14:00:02.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "IDisableable.cs",
               "DocumentMoniker": "D:\\project\\Backend\\aven-shared-code\\SharedCode\\Domain\\Interfaces\\IDisableable.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IDisableable.cs",
@@ -135,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ExceptionHandlingMiddleware.cs",
               "DocumentMoniker": "D:\\project\\Backend\\aven-shared-code\\SharedCode\\Api\\Middleware\\ExceptionHandlingMiddleware.cs",
               "RelativeDocumentMoniker": "Api\\Middleware\\ExceptionHandlingMiddleware.cs",
@@ -147,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "SharedCode.csproj",
               "DocumentMoniker": "D:\\project\\Backend\\aven-shared-code\\SharedCode\\SharedCode.csproj",
               "RelativeDocumentMoniker": "SharedCode.csproj",
@@ -155,7 +173,8 @@
               "RelativeToolTip": "SharedCode.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-09-30T14:42:21.097Z"
+              "WhenOpened": "2026-09-30T14:42:21.097Z",
+              "EditorCaption": ""
             }
           ]
         }
