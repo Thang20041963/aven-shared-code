@@ -5,7 +5,7 @@ using Microsoft.OpenApi;
 
 namespace SharedCode.Api.Helper
 {
-    internal sealed class BearerSecuritySchemeTransformer(IAuthenticationSchemeProvider schemeProvider)
+    public sealed class BearerSecuritySchemeTransformer(IAuthenticationSchemeProvider schemeProvider)
         : IOpenApiDocumentTransformer
     {
         public async Task TransformAsync(OpenApiDocument document,
